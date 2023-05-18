@@ -44,6 +44,7 @@ if (refs.input && refs.start && refs.days && refs.hours && refs.minutes && refs.
         }
     }
     const fp = flatpickr(refs.input, options);
+    console.log(fp);
     
     
 }

@@ -4,6 +4,7 @@
   "description": "",
   "homepage": "https://goitacademy.github.io/parcel-project-template",
   "scripts": {
+    "prebuild": "tsc",
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/",
     "lint": "eslint --ext .ts src"
